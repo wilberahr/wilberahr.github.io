@@ -1236,7 +1236,7 @@ input, select, textarea {
 		}
 	#home{
 		text-align: left;
-		font-size: 20px;
+		font-size: 14px;
 		-moz-transform: translateY(0.25rem);
 		-webkit-transform: translateY(0.25rem);
 		-ms-transform: translateY(0.25rem);
