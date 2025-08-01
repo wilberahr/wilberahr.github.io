@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	word-break: break-all;}
+	word-break: break-word;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1321,7 +1321,7 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 4px #ffffff;
 			border-radius: 100%;
 		}
 
@@ -1358,7 +1358,8 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
+				font-weight: bolder;
 				line-height: 2;
 			}
 
@@ -1370,13 +1371,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 4px #ffffff;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 4px #ffffff;
 			}
 
 				#header nav ul li:first-child {
@@ -1392,6 +1393,7 @@ input, select, textarea {
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
+					font-weight: bold;
 					border-bottom: 0;
 				}
 
@@ -1409,7 +1411,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
-			width: 1px;
+			width: 4px;
 			height: 100%;
 			background: #ffffff;
 		}
