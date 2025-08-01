@@ -24,7 +24,9 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	word-break: keep-all;}
+	word-break: keep-all;
+	overflow-wrap: normal;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
