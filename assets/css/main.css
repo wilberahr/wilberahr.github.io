@@ -25,8 +25,8 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	text-overflow: ellipsis;
-	word-break: auto-phrase;
-	word-wrap: break-word;
+	word-break: keep-all;
+	word-wrap: normal;
       -webkit-hyphens: auto;
       -ms-hyphens: auto;
       -moz-hyphens: auto;
