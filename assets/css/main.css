@@ -1680,6 +1680,16 @@ input, select, textarea {
     }
 }
 
+@media screen and (max-width: 736px) {
+    body h1, body h2, body h3, body h4, body h5, body h6,
+    body #home {
+        word-break: normal !important;
+        overflow-wrap: break-word !important;
+        /* Also try this for extra safety: */
+        word-wrap: break-word !important;
+        hyphens: auto !important;
+    }
+}
 /* Footer */
 
 	#footer {
